@@ -1,1 +1,29 @@
 Test of me doing a rep from archlinux :D
+
+
+[yue@Yuurei-Arch ~]$ git config --global user.name "Yue-Kuze-Kurosawa"
+[yue@Yuurei-Arch ~]$ git config --global user.email "Yue.Kuze@gmail.com"
+[yue@Yuurei-Arch ~]$ git init GitHub  
+Initialized empty Git repository in /home/yue/GitHub/.git/
+[yue@Yuurei-Arch ~]$ cd GitHub
+[yue@Yuurei-Arch GitHub]$ gedit README
+[yue@Yuurei-Arch GitHub]$ gedit sample.c
+[yue@Yuurei-Arch GitHub]$ git add README
+[yue@Yuurei-Arch GitHub]$ git add sample.c
+[yue@Yuurei-Arch GitHub]$ git commit -m "Linux Repo Commit Test"
+[master (root-commit) 5e7ef83] Linux Repo Commit Test
+ 2 files changed, 7 insertions(+)
+ create mode 100644 README
+ create mode 100644 sample.c
+[yue@Yuurei-Arch GitHub]$ git remote add origin https://github.com/Yue-Kuze-Kurosawa/Linux-Repo-Commit-Test.git
+[yue@Yuurei-Arch GitHub]$ git push origin master
+Username for 'https://github.com': Yue-Kuze-Kurosawa
+Password for 'https://Yue-Kuze-Kurosawa@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 383 bytes | 383.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/Yue-Kuze-Kurosawa/Linux-Repo-Commit-Test.git
+ * [new branch]      master -> master
+[yue@Yuurei-Arch GitHub]$ 
